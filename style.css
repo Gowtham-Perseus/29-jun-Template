@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+body{background-color: black;}
+
+.head {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1px;
+    background-color: lightslategray;
+    color: white;
+    font-size: 10px;
+}
+
+h1 {
+    color: lightseagreen;
+}
+
+.menubar {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    padding:10px;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.menuitem1, .menuitem2, .menuitem3 {
+    text-decoration: none;
+    background-color: lightseagreen;
+    color: lavender;
+    padding: 10px;
+    font-family: fantasy;
+}
+
+.menuitem1:hover, .menuitem2:hover, .menuitem3:hover {background-color: lightcoral;}
+
+.head {
+    position: sticky; top: 0;
+}
+
+.para1 h2 {color: white; padding: 10px;}
+
+p {
+    color: white;
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+
+}  
+
+img {
+    width: 200px; height: 300px;
+}
+
+figure {
+    border: 1px solid lightseagreen;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+.cards > div {
+    width: 210px;
+}
+
+.cards > div:hover {
+    box-shadow: 5px 5px lightseagreen;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    justify-content: center;
+    background-color: lightseagreen;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer > div {
+    border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+}
